@@ -1,0 +1,44 @@
+#nav, #nav-global, #nav-local, #aside, .skipToNav {
+	display: none;
+}
+
+body {
+	background: #FFF;
+	color: #000;
+	font: 62.5% Arial, Helvetica, sans-serif;
+}
+	#container {
+		font-size: 1.4em;
+		line-height: 1.3em;
+		padding-bottom: 2em;
+	}
+		#masthead,
+		#breadcrumbs {
+			border-bottom: 1px solid rgb(127,127,127);
+		}
+			#site-logo:before {
+				content:url('images/structure/logo-print.png');
+				display: block;
+			}
+		#breadcrumbs {
+			font-size: 0.786em;
+			padding: 5px 0;
+			margin:0;
+		}
+	#footer {
+		border-top: 1px solid #000;
+	}
+
+h1, h2, h3, h4, h5, h6 {}
+li {
+	padding-bottom: 5px;
+}
+	li ul,
+	li ol {
+		padding-top: 5px;
+		margin-bottom: -5px;
+	}
+	#content img {
+		float: left;
+		margin: 0 30px 15px;
+	}

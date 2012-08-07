@@ -1,0 +1,230 @@
+/* -----------------------------------------------------------------------------
+Title:        STYLESHEET_NAME
+Description:  STYLESHEET_TITLE
+Author:       EMAIL_ADDRESS
+----------------------------------------------------------------------------- */
+/* Reset -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, img, hr, form, fieldset, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0;}
+.accessibility {position: absolute; left: -9999em;}
+img, a img {border: none; -ms-interpolation-mode: bicubic;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+/* -------------------------------------------------------------------------- */
+/* Global Structure --------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+body {
+	background: #FFF;
+	font: 62.5%/1 Arial, Helvetica, sans-serif;
+}
+	.wrap {}
+	#masthead {}
+		#site-logo {}
+	#container {}
+		#padder {}
+			#content {}
+		#aside {}
+		#nav {}
+	#footer {}
+
+	.special {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+/* -------------------------------------------------------------------------- */
+/* Navigation --------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+#nav li {}
+	#nav a {}
+
+#nav-global {}
+	#nav-global li {}
+		#nav-global a {}
+#btn-global-1 a {}
+#btn-global-2 a {}
+#btn-global-3 a {}
+#btn-global-4 a {}
+#btn-global-5 a {}
+#btn-global-6 a {}
+	#nav-global a:hover {}
+
+#nav-local {}
+/* Level 2 */
+	#nav-local li {}
+		#nav-local a {}
+			#nav-local a:hover {}
+/* Level 3 */
+	#nav-local ul {}
+		#nav-local ul li {}
+			#nav-local ul a {}
+				#nav-local ul a:hover {}
+/* Level 4 */
+	#nav-local ul ul {}
+		#nav-local ul ul li {}
+			#nav-local ul ul a {}
+				#nav-local ul ul a:hover {}
+/* Level 5 */
+	#nav-local ul ul ul {}
+		#nav-local ul ul ul li {}
+			#nav-local ul ul ul a {}
+				#nav-local ul ul ul a:hover {}
+/* Level 6 */
+	#nav-local ul ul ul ul {}
+		#nav-local ul ul ul ul li {}
+			#nav-local ul ul ul ul a {}
+				#nav-local ul ul ul ul a:hover {}
+/* -------------------------------------------------------------------------- */
+/* Content Styles ----------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+a {}
+	a:hover {}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+hgroup {}
+
+p {}
+
+ul {}
+	ul ul {}
+ol {}
+	ol ol {}
+	li {}
+		li li {}
+
+img {}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+	blockquote p {}
+
+dl {}
+	dt {}
+	dd {}
+
+figure {}
+	legend {}
+	figcaption {}
+
+strong {}
+em {}
+code {}
+kbd {}
+samp {}
+var {}
+dfn {}
+
+abbr {}
+cite {}
+mark {}
+small {}
+
+b {}
+i {}
+q {}
+s {}
+q {}
+bdo {}
+del {}
+ins {}
+sub {}
+sup {}
+span {}
+
+pre {}
+address {}
+time {}
+br {}
+hr {}
+iframe {}
+noscript {}
+map {}
+	area {}
+/* -------------------------------------------------------------------------- */
+/* Media (HTML5) ------------------------------------------------------------ */
+/* -------------------------------------------------------------------------- */
+audio {}
+	source {}
+	track {}
+canvas {}
+embed {}
+object {}
+	param {}
+video {}
+	source {}
+	track {}
+/* -------------------------------------------------------------------------- */
+/* Columns ------------------------------------------------------------------ */
+/* -------------------------------------------------------------------------- */
+.row {
+	overflow: hidden;
+}
+	.row div[class^="col-"] {
+		float: left;
+	}
+	.row div[class^="col-"]:first-child {}
+	.cols-2 div[class^="col-"] {}
+	.cols-3 div[class^="col-"] {}
+/* -------------------------------------------------------------------------- */
+/* Modules ------------------------------------------------------------------ */
+/* -------------------------------------------------------------------------- */
+*[class^="mod-"] {}
+/* -------------------------------------------------------------------------- */
+/* Tables ------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	caption {}
+	tbody {}
+		tr {}
+			td {}
+	thead {}
+		th,
+		thead td {}
+	tfoot {}
+		tfoot td {}
+/* -------------------------------------------------------------------------- */
+/* Forms -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+form {}
+	fieldset {}
+		legend {}
+		label {}
+		input {}
+
+		input[type="text"] {}
+		input[type="password"] {}
+
+		input[type="button"] {}
+		input[type="reset"] {}
+		input[type="submit"] {}
+		input[type="image"] {}
+
+		input[type="checkbox"] {}
+		input[type="radio"] {}
+
+		input[type="file"] {}
+
+		textarea {}
+		select {}
+			optgroup {}
+			option {}
+		button {}
+/* -------------------------------------------------------------------------- */
+/* Media Queries ------------------------------------------------------------ */
+/* -------------------------------------------------------------------------- */
+@media only screen and (min-width: 100px) {}
